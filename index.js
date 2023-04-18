@@ -81,7 +81,7 @@ function imprimirPalabra(palabra, numero){
     
 }
 
-imprimirPalabra(`ariel`, 5);
+imprimirPalabra("ariel", 5);
 
 //6
 
@@ -109,8 +109,10 @@ imprimirMenosCinco([1,2,3,4,5,6,7,8,9,10]);
 8//
 
 function multiplicarArray(array, numero){
-    for( let i = 0; i < array.length; i++)
-    console.log(array[i] * numero);
+    for( let i = 0; i < array.length; i++){
+        console.log(array[i] * numero);
+    }
+    
 
 }
 
